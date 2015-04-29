@@ -1,1 +1,75 @@
 /* CSS STYLESHEET */
+
+body {
+	font-family: Roboto;
+	background: url("../images/bg.jpg") no-repeat;
+	background-size: cover;
+}
+
+.topnav {
+	position: absolute;
+	top: 10px;
+	left: calc(50% - 142.5px);
+	width: 285px;
+}
+
+.topnav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.topnav ul li a {
+	float: left;
+	width: 75px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: -0.4px;
+	font-weight: 700;
+	border-radius: 2px;
+	padding: 5px;
+	margin-left: 10px;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.topnav ul li a:hover {
+	background: #FFF;
+	color: #435964;
+}
+
+.appname {
+	position: absolute;
+	top: calc(50% - 75px);
+	left: 0px;
+	width: 100%;
+	height: 150px;
+	background: url("../images/catch_text_logo_white.png") no-repeat center center;
+	background-size: contain;
+}
+
+.about {
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	border-radius: 2px;
+	background: #FFF;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+.about p {
+	margin: 0px;
+	padding: 10px;
+}
